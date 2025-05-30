@@ -83,9 +83,6 @@ document.addEventListener('click', (e) => {
         toggleForms();
         editInput.value = todoTitle;
         oldInputValue = todoTitle;
-        // editForm.classList.add('active');
-        // editInput.value = parentEl.firstChild.innerText;
-        // editForm.dataset.todoTitle = parentEl.dataset.todoTitle;
     } else if (targetEl.classList.contains('finish-todo')) {
         parentEl.classList.toggle('done');
     }
