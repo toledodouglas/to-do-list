@@ -45,7 +45,7 @@ input, select{
 .todo-container{
     max-width: 450px;
     margin: 3rem auto 0;
-    background-color: #d4a2a2;
+    background-color: #3643f3b2;
     padding: 1.5rem;
     border-radius: 15px;
 }
@@ -76,4 +76,69 @@ input, select{
 
 #cancel-edit-btn{
     margin-top: 1rem;
+}
+
+#toolbar{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #102f5e;
+}
+
+#toolbar h4{
+    margin-bottom: 0.5rem;
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #102f5e;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+}
+
+#search form{
+    display: flex;
+}
+
+#search input{
+    width: 100%;
+    margin-right: 0.3rem;
+}
+
+#filter{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#filter select{
+    flex: 1;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #102f5e;
+    transition: 0.3s;
+}
+
+.todo h3{
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.todo button{
+    margin-left: 0.4rem;
+}
+
+.done{
+    background-color: #395169;
+}
+
+.done h3{
+    text-decoration: line-through;
+    color: #fdfdfd;
 }
